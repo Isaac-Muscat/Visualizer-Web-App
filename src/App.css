@@ -1,0 +1,56 @@
+
+
+nav {
+  border: 1px;
+  background-color: greenyellow;
+  color: gray;
+  padding: 6px;
+}
+
+.nav-page-link {
+  text-decoration: none;
+  color: lightslategray;
+  font-size: 20px;
+}
+
+.nav-page-link:hover {
+  color: lightseagreen;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.visualizer-button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+}
+
+.visualizer-button:hover {
+  background-color:greenyellow;
+  color: grey;
+  cursor: pointer;
+}
