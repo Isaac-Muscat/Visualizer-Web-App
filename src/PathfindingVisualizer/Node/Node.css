@@ -1,0 +1,32 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid skyblue;
+    display: inline-block;
+}
+
+.node-end {
+    background-color: yellow;
+}
+
+.node-start {
+    background-color: chartreuse;
+}
+
+.node-wall {
+    background-color: darkslategray;
+}
+
+.node-visited {
+    background-color: aqua;
+    animation: visit 0.4s;
+}
+
+.node-path {
+    background-color: yellow;
+}
+
+@keyframes visit {
+    0% { color: white;}
+    100% { color: aqua;}
+}

@@ -46,11 +46,15 @@ nav {
   display: inline-block;
   font-size: 20px;
   border: 2px solid white;
-  transition-duration: 0.4s;
 }
 
 .visualizer-button:hover {
+  transition-duration: 0.4s;
   background-color:greenyellow;
   color: grey;
   cursor: pointer;
+}
+
+.visualizer-button:active {
+  font-size: 30px;
 }

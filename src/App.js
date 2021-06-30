@@ -25,7 +25,7 @@ function App() {
               <SortingVisualizer />
             </Route>
             <Route path="/pathfinding-visualizer">
-            <h1>PathfindingVisualizer</h1>
+            <PathfindingVisualizer />
             </Route>
             <Route path="/">
               <h1>Home</h1>
